@@ -316,28 +316,72 @@ footer a {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     body {
-        padding-left: 5em;
-        padding-right: 5em;
+        padding-left: 6em;
+        padding-right: 6em;
     }
-    header {
+    header nav ul {
         display: flex;
-        padding-top: 1.3em;
-        padding-bottom: 0em;
-        justify-content: space-between;
-        align-items: baseline;
-        font-size: 1.2em;
+    }
+    header nav ul li {
+        padding: 0.5em;
+    }
+    header nav {
+        display: flex;
+        align-items: center;
     }
     header div {
         display: flex;
         align-items: center;
     }
-    header div img {
-        height: 40px;
-        width: 150px;
-        padding-right: 1.5em;
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1em;
+        padding-bottom: 0.1em;
+        font-size: 1.2em;
     }
-    header nav ul li {
-        display: inline;
-        padding-right: 0.8em;
+    main {
+        padding-left: 1.5em;
+    }
+    main article {
+        font-size: 1.2em;
+        line-height: 2;
+    }
+    main article h1 {
+        font-size: 3em;
+    }
+    main article h2 {
+        font-weight: bold;
+    }
+    main article table {
+        margin: auto;
+        margin-top: 3.5em;
+        margin-bottom: 4em;
+        font-size: 1em;
+    }
+    .container {
+        display: flex;
+        height: auto;
+    }
+    .container form fieldset input {
+        padding: 1em;
+        width: 70%;
+    }
+    .container form fieldset button {
+        padding: 1em 2em;
+    }
+    main section {
+        border-radius: 20px;
+    }
+    main aside h2 {
+        font-size: 1.8em;
+    }
+    .article {
+        display: flex;
+        justify-content: space-between;
+    }
+    footer {
+        font-size: 1.4em;
     }
 }

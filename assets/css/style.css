@@ -91,7 +91,7 @@ section h2 {
 }
 
 #logo_html {
-    width: 80px;
+    width: 50px;
     border: 4px solid rgb(80, 155, 254);
     outline: 4px solid rgb(138, 57, 138);
 }
@@ -269,7 +269,7 @@ footer a {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
     header {
         font-size: 1.2em;
     }
@@ -311,5 +311,33 @@ footer a {
     }
     footer {
         font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    body {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    header {
+        display: flex;
+        padding-top: 1.3em;
+        padding-bottom: 0em;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 1.2em;
+    }
+    header div {
+        display: flex;
+        align-items: center;
+    }
+    header div img {
+        height: 40px;
+        width: 150px;
+        padding-right: 1.5em;
+    }
+    header nav ul li {
+        display: inline;
+        padding-right: 0.8em;
     }
 }
